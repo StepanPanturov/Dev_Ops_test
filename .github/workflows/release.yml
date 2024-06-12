@@ -29,7 +29,7 @@ jobs:
 
       - name: Build binary with PyInstaller
         run: |
-          pyinstaller --onefile main/main.py
+          pyinstaller --onefile main/operations.py
 
       - name: Build project
         run: |
