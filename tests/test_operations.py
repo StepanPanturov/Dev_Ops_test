@@ -4,7 +4,7 @@ from main.operations import sum, multi, power
 
 @pytest.mark.parametrize(
     ('a', 'b', 'result'), [
-        (50, 50, 187),
+        (50, 50, 100),
         (0, 0, 0),
         (687, 13, 700),
     ]
@@ -25,7 +25,7 @@ def test_sum(a, b, result):
 
 
 def test_multi(a, b, result):
-    assert sum(a, b) == result
+    assert multi(a, b) == result
 
 
 @pytest.mark.parametrize(
