@@ -8,7 +8,6 @@ def sum(a: int, b: int) -> int:
     :return: результат сложения
     """
 
-    result = 0
     result = a + b
     return result
 
@@ -23,7 +22,6 @@ def sub(a: int, b: int) -> int:
     :return: результат вычитания
     """
 
-    result = 0
     result = a - b
     return result
 
@@ -37,7 +35,6 @@ def multi(a: int, b: int) -> int:
     :return: результат умножения
     """
 
-    result = 0
     result = a * b
     return result
 
@@ -51,6 +48,5 @@ def power(a: int, b: int) -> int:
     :return: результат возведения в степень
     """
 
-    result = 0
     result = a ** b
     return result
