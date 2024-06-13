@@ -7,7 +7,6 @@ def sum(a: int, b: int) -> int:
     :return: результат сложения
     """
 
-    result = 0
     result = a + b
     return result
 
@@ -21,7 +20,6 @@ def multi(a: int, b: int) -> int:
     :return: результат умножения
     """
 
-    result = 0
     result = a * b
     return result
 
@@ -36,6 +34,18 @@ def power(a: int, b: int) -> int:
     :return: результат возведения в степень
     """
 
-    result = 0
     result = a ** b
+    return result
+
+
+def div(a: int, b: int) -> int:
+    """
+    Функция для деления числа.
+
+    :param a: делимое
+    :param b: делитель
+    :return: результат деления
+    """
+
+    result = a // b
     return result
