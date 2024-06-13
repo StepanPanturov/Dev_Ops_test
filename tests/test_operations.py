@@ -31,7 +31,7 @@ def test_multi(a, b, result):
 @pytest.mark.parametrize(
     ('a', 'b', 'result'), [
         (4, 2, 2),
-        (100, 50, 100),
+        (100, 50, 50),
         (1, 0, 1),
     ]
 )
