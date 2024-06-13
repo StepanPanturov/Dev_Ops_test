@@ -8,7 +8,7 @@ def sum(a: int, b: int) -> int:
     :return: результат сложения
     """
 
-    result = a + b
+      result = a + b
     return result
 
 
