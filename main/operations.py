@@ -50,3 +50,16 @@ def power(a: int, b: int) -> int:
 
     result = a ** b
     return result
+
+
+def div(a: int, b: int) -> int:
+    """
+    Функция для деления числа.
+
+    :param a: делимое
+    :param b: делитель
+    :return: результат деления
+    """
+
+    result = a // b
+    return result
